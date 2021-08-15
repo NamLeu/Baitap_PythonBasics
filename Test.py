@@ -1,7 +1,6 @@
-name = input("Ten nguoi gui: ")
-adress = input("Nhap dia chi: ")
-time = input("Nhap ngày tháng năm: ")
-
-print('{} thương nhớ\n'
-      ' Em không biết....'
-      ' môi khi \n{} {}'.format(name,adress,time))
+day = ("Monday", "Tuesday", "Wednesday", "Friday", "Thusday", "Saturday", "Sunday")
+i = int(input("Nhập số ngày: "))
+if i>1 and i<9:
+      print(day[i-2])
+else:
+      print("Nhập sai số ngày")
